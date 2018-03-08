@@ -3,9 +3,9 @@ import {Component} from '@angular/core';
 @Component({
   selector: 'app-navbar',
   template: `
-    <nav class="uk-navbar-container uk-navbar uk-navbar-transparent uk-padding-small" uk-navbar>
+    <nav class="uk-navbar-container uk-navbar uk-navbar-transparent" uk-navbar>
 
-      <div class="uk-navbar-left">
+      <div class="uk-navbar-left uk-padding">
 
         <a href="" class="uk-navbar-item uk-logo">
           <img src="http://unifytheme.com/bin/bitap/images/logo/logo.png" alt="">
@@ -13,13 +13,14 @@ import {Component} from '@angular/core';
 
       </div>
 
-      <div class="uk-navbar-right">
+      <div class="uk-navbar-right uk-padding">
 
         <ul class="uk-navbar-nav">
-          <li class=""><a href="#">Active</a></li>
+          <li class=""><a href="#">Inicio</a></li>
+          <li><a href="#">Sobre Nosotros</a></li>
           <li>
-            <a href="#">Parent</a>
-            <div class="uk-navbar-dropdown">
+            <a href="#">Servicios <span class="uk-margin-small-left"><i class="fas fa-chevron-down"></i></span></a>
+            <div class="uk-navbar-dropdown" uk-dropdown="offset: 0">
               <ul class="uk-nav uk-navbar-dropdown-nav">
                 <li class=""><a href="#">Active</a></li>
                 <li><a href="#">Item</a></li>
@@ -27,7 +28,7 @@ import {Component} from '@angular/core';
               </ul>
             </div>
           </li>
-          <li><a href="#">Item</a></li>
+          <li><a href="#">Contactanos</a></li>
         </ul>
 
       </div>
@@ -35,4 +36,4 @@ import {Component} from '@angular/core';
     </nav>
   `
 })
-export class NavComponent{}
+export class NavComponent {}

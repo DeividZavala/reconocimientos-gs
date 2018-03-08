@@ -1,0 +1,32 @@
+.header{
+  height: 100vh;
+  background-image: url("http://unifytheme.com/bin/bitap/images/home/slide-1.jpg");
+  max-height: 100vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-title{
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  padding: 0 15%;
+  position: absolute;
+  top: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 60px;
+  font-weight: 900;
+  color: #ffffff;
+}
+p{
+  font-size: 18px;
+  color: #fff;
+  line-height: 30px;
+  font-weight: 300;
+}

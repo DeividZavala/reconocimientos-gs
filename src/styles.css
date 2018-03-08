@@ -2,3 +2,34 @@
 .uk-navbar-nav>li>a{
   color: #fff !important;
 }
+a{
+  font-family: 'Montserrat', sans-serif !important;
+}
+/** Paddings left **/
+.padding-small-left{
+  padding-left: 15px;
+}
+.padding-left{
+  padding-left: 40px;
+}
+.padding-large-left{
+  padding-left: 70px;
+}
+/** Paddings right **/
+.padding-small-right{
+  padding-right: 15px;
+}
+.padding-right{
+  padding-right: 40px;
+}
+.padding-large-right{
+  padding-right: 70px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Montserrat', sans-serif !important;
+}

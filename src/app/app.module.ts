@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {CommonAppModule} from './common/common-app.module';
+import {HeaderComponent} from './header/header.component';
+import {LandingComponent} from './landing/landing.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
