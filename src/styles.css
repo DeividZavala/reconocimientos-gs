@@ -7,24 +7,47 @@ a{
 }
 /** Paddings left **/
 .padding-small-left{
-  padding-left: 15px;
+  padding-left: 15px !important;
 }
 .padding-left{
-  padding-left: 40px;
+  padding-left: 40px !important;
 }
 .padding-large-left{
-  padding-left: 70px;
+  padding-left: 70px !important;
 }
 /** Paddings right **/
 .padding-small-right{
-  padding-right: 15px;
+  padding-right: 15px !important;
 }
 .padding-right{
-  padding-right: 40px;
+  padding-right: 40px !important;
 }
 .padding-large-right{
-  padding-right: 70px;
+  padding-right: 70px !important;
 }
+
+/** Paddings bottom **/
+.padding-small-bottom{
+  padding-bottom: 15px !important;
+}
+.padding-bottom{
+  padding-bottom: 40px !important;
+}
+.padding-large-bottom{
+  padding-bottom: 70px !important;
+}
+
+/** Paddings top **/
+.padding-small-top{
+  padding-top: 15px !important;
+}
+.padding-top{
+  padding-top: 40px !important;
+}
+.padding-large-top{
+  padding-top: 70px !important;
+}
+
 h1,
 h2,
 h3,
@@ -32,4 +55,9 @@ h4,
 h5,
 h6{
   font-family: 'Montserrat', sans-serif !important;
+}
+a{
+  display: inline-block;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none !important;
 }

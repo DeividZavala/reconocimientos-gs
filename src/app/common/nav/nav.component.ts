@@ -22,9 +22,9 @@ import {Component} from '@angular/core';
             <a href="#">Servicios <span class="uk-margin-small-left"><i class="fas fa-chevron-down"></i></span></a>
             <div class="uk-navbar-dropdown" uk-dropdown="offset: 0">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class=""><a href="#">Active</a></li>
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
+                <li class=""><a href="#">Reconocimientos</a></li>
+                <li><a href="#">Paquetes de graduación</a></li>
+                <li><a href="#">Paquetes para empresas</a></li>
               </ul>
             </div>
           </li>
