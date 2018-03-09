@@ -107,3 +107,6 @@ a.hvr-float-shadow:before{
   font-size: 36px;
   color: #282828;
 }
+.particles-container{
+  background-color: #202125;
+}
