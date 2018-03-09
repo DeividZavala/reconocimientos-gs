@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 import 'uikit/dist/css/uikit.min.css';
 
 @Component({
@@ -8,3 +7,4 @@ import 'uikit/dist/css/uikit.min.css';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {}
+

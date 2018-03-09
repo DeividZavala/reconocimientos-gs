@@ -68,3 +68,42 @@ a.uk-accordion-title{
   color: rgb(40, 40, 40);
   display: block;
 }
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active{
+  webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+a.hvr-float-shadow:before{
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.counter-container .wrapper{
+  background: #f4f7f9;
+  border: none;
+  border: 1px solid #f3f3f3;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 38px 0 34px 0;
+}
+.counter-container .wrapper .numbers{
+  font-weight: 700;
+  font-size: 36px;
+  color: #282828;
+}

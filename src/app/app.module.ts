@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CountUpModule } from 'countup.js-angular2';
 
 
 import { AppComponent } from './app.component';
@@ -16,7 +17,8 @@ import {LandingComponent} from './landing/landing.component';
   ],
   imports: [
     BrowserModule,
-    CommonAppModule
+    CommonAppModule,
+    CountUpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
