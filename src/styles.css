@@ -67,3 +67,8 @@ p{
   color: #303030;
   margin-top: 15px;
 }
+
+.tran3s{
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}

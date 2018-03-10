@@ -164,3 +164,39 @@ p.services{
   border: 2px solid #fff;
   color: #ffffff !important;
 }
+
+.our-team .single-team-member .title h5 a {
+  color: #282828;
+  display: block;
+  margin: 32px 0 5px 0;
+}
+
+.our-team p{
+  color: #8f8f8f;
+}
+.our-team ul{
+  list-style-type: none;
+}
+.our-team ul li{
+  display: inline-block;
+}
+.our-team ul li a{
+  width: 35px;
+  line-height: 33px;
+  border: 1px solid #cfd1d9;
+  text-align: center;
+  color: #cfd1d9;
+  margin-right: 4px;
+  border-radius: 50%;
+}
+.our-team ul li a:hover {
+  color: #fff;
+  background: #00c4fc;
+  border: 1px solid #00c4fc;
+}
+.testimonios h6{
+  color: #ffffff;
+}
+.testimonios span{
+  color: #00c4fc;
+}
