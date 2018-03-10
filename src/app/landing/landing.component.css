@@ -22,18 +22,20 @@ h6{
   font-size: 18px;
   font-weight: 300;
 }
-svg{
+.ventajas svg{
   color: rgb(0, 196, 252) !important;
 }
 a.btn-round{
   line-height: 41px;
   color: rgb(40, 40, 40);
-  width: 155px;
   border-width: 2px;
   border-style: solid;
   border-color: rgb(236, 236, 236);
   border-image: initial;
   transition: all 0.3s ease-in-out;
+}
+a.btn-round.more-info{
+  width: 155px;
 }
 .btn-round{
   line-height: 50px;
@@ -126,4 +128,39 @@ h2.services{
 }
 p.services{
   color: #b2b2b2;
+}
+
+.single-service{
+  background: #00c4fc;
+  position: relative;
+  padding: 25px 30px 28px 50px;
+  border-radius: 3px;
+  color: #ffffff !important;
+}
+.single-service div {
+  position: relative;
+  padding-left: 65px;
+}
+.single-service div svg {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  font-size: 45px;
+  color: #ffffff;
+}
+.single-service div span {
+  font-size: 15px;
+  color: #ffffff;
+}
+.single-service div h5 a {
+  color: #fff;
+  margin: 2px 0 22px 0;
+}
+.single-service p {
+  color: #ffffff;
+}
+ .services-btn{
+  line-height: 46px;
+  border: 2px solid #fff;
+  color: #ffffff !important;
 }
