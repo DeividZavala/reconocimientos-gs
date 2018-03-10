@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CountUpModule } from 'countup.js-angular2';
 
+import { OwlModule } from 'ngx-owl-carousel';
+
 
 import { AppComponent } from './app.component';
 import {CommonAppModule} from './common/common-app.module';
@@ -18,7 +20,8 @@ import {LandingComponent} from './landing/landing.component';
   imports: [
     BrowserModule,
     CommonAppModule,
-    CountUpModule
+    CountUpModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]

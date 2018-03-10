@@ -108,5 +108,22 @@ a.hvr-float-shadow:before{
   color: #282828;
 }
 .particles-container{
-  background-color: #202125;
+  background: #202125;
+  padding: 100px 0 90px;
+  position: relative;
+  z-index: 99;
+}
+#particles-js{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+h2.services{
+  color: white;
+}
+p.services{
+  color: #b2b2b2;
 }

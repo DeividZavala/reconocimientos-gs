@@ -61,3 +61,9 @@ a{
   font-family: Montserrat, sans-serif;
   text-decoration: none !important;
 }
+p{
+  font-size: 18px;
+  line-height: 32px;
+  color: #303030;
+  margin-top: 15px;
+}
