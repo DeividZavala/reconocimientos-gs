@@ -194,9 +194,42 @@ p.services{
   background: #00c4fc;
   border: 1px solid #00c4fc;
 }
+.testimonios{
+  background-image: url('http://unifytheme.com/bin/bitap/images/home/7.jpg');
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+}
+
 .testimonios h6{
+  color: #ffffff;
+}
+.testimonios h2{
   color: #ffffff;
 }
 .testimonios span{
   color: #00c4fc;
+}
+.testimonios .item {
+  background: #fff;
+  border-radius: 3px;
+  padding: 40px 30px 35px 40px;
+}
+.testimonios .item .name {
+  position: relative;
+  padding-left: 90px;
+}
+.testimonios .item .name .img {
+  position: absolute;
+  left: 0;
+  top: -5px;
+  border-radius: 50%;
+}
+.overlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(21,21,21,0.9);;
 }
