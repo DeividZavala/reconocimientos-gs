@@ -402,11 +402,11 @@ module.exports = {
       "sourceMap": true,
       "filename": "scripts.bundle.js",
       "scripts": [
-        "./node_modules/jquery/dist/jquery.min.js",
-        "/Users/Deivid/Desktop/proyectos/graduaciones-gs/node_modules/uikit/dist/js/uikit.min.js",
-        "/Users/Deivid/Desktop/proyectos/graduaciones-gs/node_modules/particles.js/particles.js"
+        "node_modules/jquery/dist/jquery.min.js",
+        "node_modules/uikit/dist/js/uikit.min.js",
+        "node_modules/particles.js/particles.js"
       ],
-      "basePath": "/Users/Deivid/Desktop/proyectos/graduaciones-gs"
+      "basePath": "./"
     }),
     new CopyWebpackPlugin([
       {
