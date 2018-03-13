@@ -13,7 +13,7 @@ import {Component} from '@angular/core';
 
       </div>
 
-      <div class="uk-navbar-right uk-padding">
+      <div class="uk-navbar-right uk-padding uk-visible@m">
 
         <ul class="uk-navbar-nav">
           <li class=""><a href="#">Inicio</a></li>

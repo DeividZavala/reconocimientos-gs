@@ -37,6 +37,13 @@ a.btn-round{
 a.btn-round.more-info{
   width: 155px;
 }
+.about-us .btn-round{
+  background: #00c4fc;
+  width: 160px;
+  line-height: 50px;
+  border-color: #00c4fc;
+  color: white;
+}
 .btn-round{
   line-height: 50px;
   text-transform: uppercase;
@@ -202,7 +209,9 @@ p.services{
   position: relative;
   height: 100vh;
 }
-
+.testimonios .testimonios-container{
+  height: 100vh;
+}
 .testimonios h6{
   color: #ffffff;
 }
@@ -228,8 +237,75 @@ p.services{
   border-radius: 50%;
 }
 .overlay{
-  height: 100%;
+  height: auto;
   width: 100%;
   position: absolute;
   background-color: rgba(21,21,21,0.9);;
+}
+iframe {
+  width:100%;
+  height:500px;
+}
+form label {
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #a8acb9;
+  display: block;
+  letter-spacing: 1.5px;
+}
+
+form input, form textarea {
+  border: none;
+  background: #eff0f4;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 100%;
+}
+
+form input:focus, form textarea:focus {
+  box-shadow: 0px 9px 18px 0px rgba(173, 178, 199, 0.52);
+}
+
+footer .bottom-footer {
+  border-top: 2px solid rgba(205,206,212,0.5);
+  margin-top: 70px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer .footer-list ul li a {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 5px;
+  color: #828181;
+}
+footer .footer-list ul li a:hover{
+  color: #00c4fc;
+}
+footer ul{
+  list-style: none;
+}
+footer svg{
+  color: #8f8f8f;
+  transition: all .3s;
+}
+footer svg:hover{
+  color: #00c4fc;
+}
+
+@media (max-width: 700px) {
+  * {
+    text-align: center;
+  }
+  .why-us div.uk-flex{
+    flex-direction: column;
+  }
+  .why-us div.circular-icon{
+    display: inline-block;
+  }
+  .follow-icons{
+    justify-content: center;
+  }
 }
