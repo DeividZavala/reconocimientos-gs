@@ -1,5 +1,5 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
-import {OwlCarousel} from 'ngx-owl-carousel';
+// import {OwlCarousel} from 'ngx-owl-carousel';
 
 @Component({
   selector: 'app-landing',
