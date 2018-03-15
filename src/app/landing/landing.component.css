@@ -23,7 +23,7 @@ h6{
   font-weight: 300;
 }
 .ventajas svg{
-  color: rgb(0, 196, 252) !important;
+  color: rgb(18,214,194) !important;
 }
 a.btn-round{
   line-height: 41px;
@@ -38,10 +38,10 @@ a.btn-round.more-info{
   width: 155px;
 }
 .about-us .btn-round{
-  background: #00c4fc;
+  background: #12D6C2;
   width: 160px;
   line-height: 50px;
-  border-color: #00c4fc;
+  border-color: #12D6C2;
   color: white;
 }
 .btn-round{
@@ -52,8 +52,8 @@ a.btn-round.more-info{
   border-radius: 30px;
 }
 .btn-round:hover{
-  background: rgb(0, 196, 252);
-  border-color: rgb(0, 196, 252);
+  background: rgb(18,214,194);
+  border-color: rgb(18,214,194);
   color: rgb(255, 255, 255);
 }
 .background-lead{
@@ -67,7 +67,7 @@ a.btn-round.more-info{
   color: rgb(255, 255, 255);
   font-size: 30px;
   border-radius: 50%;
-  background: rgb(0, 196, 252);
+  background: rgb(18,214,194);
 }
 .circular-icon svg{
   color: #ffffff !important;
@@ -138,7 +138,7 @@ p.services{
 }
 
 .single-service{
-  background: #00c4fc;
+  background: #12D6C2;
   position: relative;
   padding: 25px 30px 28px 50px;
   border-radius: 3px;
@@ -198,8 +198,8 @@ p.services{
 }
 .our-team ul li a:hover {
   color: #fff;
-  background: #00c4fc;
-  border: 1px solid #00c4fc;
+  background: #12D6C2;
+  border: 1px solid #12D6C2;
 }
 .testimonios{
   background-image: url('http://unifytheme.com/bin/bitap/images/home/7.jpg');
@@ -211,6 +211,7 @@ p.services{
 }
 .testimonios .testimonios-container{
   height: 100vh;
+  padding-top: 9%;
 }
 .testimonios h6{
   color: #ffffff;
@@ -219,7 +220,7 @@ p.services{
   color: #ffffff;
 }
 .testimonios span{
-  color: #00c4fc;
+  color: #12D6C2;
 }
 .testimonios .item {
   background: #fff;
@@ -282,7 +283,7 @@ footer .footer-list ul li a {
   color: #828181;
 }
 footer .footer-list ul li a:hover{
-  color: #00c4fc;
+  color: #12D6C2;
 }
 footer ul{
   list-style: none;
@@ -292,7 +293,7 @@ footer svg{
   transition: all .3s;
 }
 footer svg:hover{
-  color: #00c4fc;
+  color: #12D6C2;
 }
 
 @media (max-width: 700px) {
