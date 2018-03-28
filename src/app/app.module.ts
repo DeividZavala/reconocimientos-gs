@@ -9,20 +9,33 @@ import { AppComponent } from './app.component';
 import {CommonAppModule} from './common/common-app.module';
 import {HeaderComponent} from './header/header.component';
 import {LandingComponent} from './landing/landing.component';
+import {Routes} from '@angular/router';
+import { RouterModule } from '@angular/router';
+import {AppService} from './app.service';
+import {AboutUsComponent} from './about-us/about-us.component';
+
+const Routes: Routes = [
+  {path: '', component: LandingComponent},
+  {path: 'about-us', component: AboutUsComponent}
+];
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    LandingComponent
+    LandingComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
     CommonAppModule,
-    CountUpModule
+    CountUpModule,
+    RouterModule.forRoot(Routes)
   ],
-  providers: [],
+  providers: [
+    AppService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

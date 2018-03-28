@@ -17,7 +17,7 @@ import {Component} from '@angular/core';
 
         <ul class="uk-navbar-nav">
           <li class=""><a href="#">Inicio</a></li>
-          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a routerLink="about-us">Sobre Nosotros</a></li>
           <li>
             <a href="#">Servicios <span class="uk-margin-small-left"><i class="fas fa-chevron-down"></i></span></a>
             <div class="uk-navbar-dropdown" uk-dropdown="offset: 0">

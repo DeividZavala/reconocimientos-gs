@@ -12,7 +12,7 @@ import {Component} from '@angular/core';
         <h1>
           La mejor opción para tu paquete de graduación
         </h1>
-        <p class="uk-margin-remove-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolorem dolores incidunt.</p>
+        <p class="uk-margin-remove-top">Artículos de graduación y reconocimientos deportivos, empresariales y gubernamentales.</p>
       </div>
     </header>
   `
