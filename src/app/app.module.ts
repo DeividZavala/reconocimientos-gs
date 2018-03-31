@@ -13,10 +13,12 @@ import {Routes} from '@angular/router';
 import { RouterModule } from '@angular/router';
 import {AppService} from './app.service';
 import {AboutUsComponent} from './about-us/about-us.component';
+import {TeamMemberComponent} from './about-us/team-member.component';
 
 const Routes: Routes = [
   {path: '', component: LandingComponent},
-  {path: 'about-us', component: AboutUsComponent}
+  {path: 'about-us', component: AboutUsComponent},
+  {path: '**', component: LandingComponent}
 ];
 
 
@@ -25,7 +27,8 @@ const Routes: Routes = [
     AppComponent,
     HeaderComponent,
     LandingComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    TeamMemberComponent
   ],
   imports: [
     BrowserModule,

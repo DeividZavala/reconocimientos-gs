@@ -1,0 +1,68 @@
+.inner-banner{
+  border-bottom: 1px solid #f2f2f2;
+}
+.inner-banner .bg{
+  background-image: url("http://unifytheme.com/bin/bitap/images/inner-page/banner.jpg");
+  background-size: cover;
+}
+.overlay{
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+  padding: 75px 0 85px 0;
+  position: relative;
+  z-index: 9;
+}
+.overlay h2{
+  color: #fff;
+  font-weight: 800;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.inner-banner ul li{
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-weight: 500;
+  margin-right: 3px;
+  color: #1a1a1a;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+inner-banner ul li a {
+  color: #1a1a1a;
+}
+.inner-banner ul li:last-child{
+  color: #109988;
+}
+.title h2 span{
+  color: #109988;
+}
+.about-us p{
+  font-size: 16px;
+}
+.counter-container .wrapper{
+  background: #f4f7f9;
+  border: none;
+  border: 1px solid #f3f3f3;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 38px 0 34px 0;
+}
+.counter-container .wrapper .numbers{
+  font-weight: 700;
+  font-size: 36px;
+  color: #282828;
+}
+.our-history {
+  background: #f7fafd;
+  padding: 120px 0;
+}
+.our-history p{
+  font-size: 16px;
+}
+h6{
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: rgb(48, 48, 48);
+  font-size: 18px;
+  font-weight: 300;
+}

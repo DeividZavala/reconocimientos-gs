@@ -2,13 +2,16 @@ import {Component} from '@angular/core';
 
 @Component ({
   selector: 'app-about-us',
-  styleUrls: [],
-  template: `
-  
-    <h1>Sobre Nosotros</h1>
-  
-  `
+  styleUrls: ['about-us.component.css'],
+  templateUrl: 'about-us.component.html'
 })
 export class AboutUsComponent {
+
+  targets: any = {
+    'projects': 10000,
+    'years': 20,
+    'workes': 20
+  };
+
   constructor() {}
 }

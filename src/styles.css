@@ -1,7 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-.uk-navbar-nav>li>a{
-  color: #fff !important;
-}
 a{
   font-family: 'Montserrat', sans-serif !important;
 }
@@ -15,6 +12,10 @@ a{
 .padding-large-left{
   padding-left: 70px !important;
 }
+.padding-remove-left{
+   padding-left: 0 !important;
+ }
+
 /** Paddings right **/
 .padding-small-right{
   padding-right: 15px !important;
@@ -24,6 +25,9 @@ a{
 }
 .padding-large-right{
   padding-right: 70px !important;
+}
+.padding-remove-right{
+  padding-right: 0 !important;
 }
 
 /** Paddings bottom **/
@@ -36,6 +40,9 @@ a{
 .padding-large-bottom{
   padding-bottom: 70px !important;
 }
+.padding-remove-bottom{
+  padding-bottom: 0 !important;
+}
 
 /** Paddings top **/
 .padding-small-top{
@@ -47,6 +54,9 @@ a{
 .padding-large-top{
   padding-top: 70px !important;
 }
+.padding-remove-top{
+  padding-top: 0 !important;
+}
 
 h1,
 h2,
@@ -55,6 +65,11 @@ h4,
 h5,
 h6{
   font-family: 'Montserrat', sans-serif !important;
+}
+h2{
+  font-size: 45px !important;
+  font-weight: 800 !important;
+  line-height: 54px !important;
 }
 a{
   display: inline-block;

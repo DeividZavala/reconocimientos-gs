@@ -1,0 +1,26 @@
+.custom-navbar .uk-navbar-nav>li>a{
+  color: #282828 !important;
+}
+.custom-navbar{
+  background: white;
+}
+.top-header{
+  background: #1a1a1a;
+}
+.top-header ul>li:first-child {
+  border-left: 1px solid #2a2a2a;
+}
+.top-header ul>li>a {
+  color: rgba(255,255,255,0.4);
+  font-size: 18px;
+}
+.top-header ul>li>a:hover{
+  color: #109988;
+}
+.top-header ul>li{
+  display: inline-block;
+  border-right: 1px solid #2a2a2a;
+  line-height: 45px;
+  padding: 0 15px;
+  color: #fff;
+}

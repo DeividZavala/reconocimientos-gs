@@ -1,0 +1,29 @@
+.single-team-member .title h5 a {
+  color: #282828;
+  display: block;
+  margin: 32px 0 5px 0;
+}
+
+.single-team-member p{
+  color: #8f8f8f;
+}
+.single-team-member ul{
+  list-style-type: none;
+}
+.single-team-member ul li{
+  display: inline-block;
+}
+.single-team-member ul li a{
+  width: 35px;
+  line-height: 33px;
+  border: 1px solid #cfd1d9;
+  text-align: center;
+  color: #cfd1d9;
+  margin-right: 4px;
+  border-radius: 50%;
+}
+.single-team-member ul li a:hover {
+  color: #fff;
+  background: #109988;
+  border: 1px solid #109988;
+}

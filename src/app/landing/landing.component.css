@@ -172,22 +172,22 @@ p.services{
   color: #ffffff !important;
 }
 
-.our-team .single-team-member .title h5 a {
+.single-team-member .title h5 a {
   color: #282828;
   display: block;
   margin: 32px 0 5px 0;
 }
 
-.our-team p{
+.single-team-member p{
   color: #8f8f8f;
 }
-.our-team ul{
+.single-team-member ul{
   list-style-type: none;
 }
-.our-team ul li{
+.single-team-member ul li{
   display: inline-block;
 }
-.our-team ul li a{
+.single-team-member ul li a{
   width: 35px;
   line-height: 33px;
   border: 1px solid #cfd1d9;
@@ -196,7 +196,7 @@ p.services{
   margin-right: 4px;
   border-radius: 50%;
 }
-.our-team ul li a:hover {
+.single-team-member ul li a:hover {
   color: #fff;
   background: #109988;
   border: 1px solid #109988;
@@ -268,32 +268,6 @@ form input, form textarea {
 
 form input:focus, form textarea:focus {
   box-shadow: 0px 9px 18px 0px rgba(173, 178, 199, 0.52);
-}
-
-footer .bottom-footer {
-  border-top: 2px solid rgba(205,206,212,0.5);
-  margin-top: 70px;
-  padding: 40px 0;
-  text-align: center;
-}
-
-footer .footer-list ul li a {
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 5px;
-  color: #828181;
-}
-footer .footer-list ul li a:hover{
-  color: #109988;
-}
-footer ul{
-  list-style: none;
-}
-footer svg{
-  color: #8f8f8f;
-  transition: all .3s;
-}
-footer svg:hover{
-  color: #109988;
 }
 
 @media (max-width: 700px) {
