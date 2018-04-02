@@ -6,14 +6,15 @@ import {Component} from '@angular/core';
   template: `
     <footer class="padding-top">
       <div class="uk-container">
-        <div class="uk-child-width-1-4@m uk-child-width-1-1@s" uk-grid>
+        <div class="uk-child-width-1-4@m uk-child-width-1-1@s uk-flex-middle" uk-grid>
           <div>
             <a href="" class="uk-logo">
-              <img src="http://unifytheme.com/bin/bitap/images/logo/logo2.png" alt="">
+              <img src="/assets/img gs/gs_100x100.png" alt="">
             </a>
             <p class="uk-text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Aliquam eaque eum exercitationem, impedit ipsa itaque labore, mollitia nemo nisi.
+              VISIÓN
+              Lograr expandirnos en diversos Estados y países por medio de la fabricación y
+              especialización de cada uno de los productos que ofrecemos.
             </p>
           </div>
           <div class="footer-list">
