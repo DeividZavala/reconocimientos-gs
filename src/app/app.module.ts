@@ -14,10 +14,14 @@ import { RouterModule } from '@angular/router';
 import {AppService} from './app.service';
 import {AboutUsComponent} from './about-us/about-us.component';
 import {TeamMemberComponent} from './about-us/team-member.component';
+import {ContactUsComponent} from './contact-us/contact-us.component';
+import {SectionHeaderComponent} from './header/section-header.component';
+import {ContactusFormComponent} from './contact-us/contactus-form.component';
 
 const Routes: Routes = [
   {path: '', component: LandingComponent},
   {path: 'about-us', component: AboutUsComponent},
+  {path: 'contact-us', component: ContactUsComponent},
   {path: '**', component: LandingComponent}
 ];
 
@@ -28,6 +32,9 @@ const Routes: Routes = [
     HeaderComponent,
     LandingComponent,
     AboutUsComponent,
+    ContactUsComponent,
+    SectionHeaderComponent,
+    ContactusFormComponent,
     TeamMemberComponent
   ],
   imports: [

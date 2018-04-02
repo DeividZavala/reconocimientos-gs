@@ -137,7 +137,7 @@ p.services{
   color: #b2b2b2;
 }
 
-.single-service{
+.item{
   background: #109988;
   position: relative;
   padding: 25px 30px 28px 50px;
@@ -172,35 +172,6 @@ p.services{
   color: #ffffff !important;
 }
 
-.single-team-member .title h5 a {
-  color: #282828;
-  display: block;
-  margin: 32px 0 5px 0;
-}
-
-.single-team-member p{
-  color: #8f8f8f;
-}
-.single-team-member ul{
-  list-style-type: none;
-}
-.single-team-member ul li{
-  display: inline-block;
-}
-.single-team-member ul li a{
-  width: 35px;
-  line-height: 33px;
-  border: 1px solid #cfd1d9;
-  text-align: center;
-  color: #cfd1d9;
-  margin-right: 4px;
-  border-radius: 50%;
-}
-.single-team-member ul li a:hover {
-  color: #fff;
-  background: #109988;
-  border: 1px solid #109988;
-}
 .testimonios{
   background-image: url('http://unifytheme.com/bin/bitap/images/home/7.jpg');
   background-position: top;
@@ -242,32 +213,6 @@ p.services{
   width: 100%;
   position: absolute;
   background-color: rgba(21,21,21,0.9);;
-}
-iframe {
-  width:100%;
-  height:500px;
-}
-form label {
-  font-weight: 400;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #a8acb9;
-  display: block;
-  letter-spacing: 1.5px;
-}
-
-form input, form textarea {
-  border: none;
-  background: #eff0f4;
-  border-radius: 5px;
-  padding: 15px;
-  margin-bottom: 25px;
-  width: 100%;
-  max-width: 100%;
-}
-
-form input:focus, form textarea:focus {
-  box-shadow: 0px 9px 18px 0px rgba(173, 178, 199, 0.52);
 }
 
 @media (max-width: 700px) {

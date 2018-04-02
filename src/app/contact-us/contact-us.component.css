@@ -1,0 +1,20 @@
+.single-address{
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  text-align: center;
+  padding: 35px 0 40px 0;
+}
+svg.single-address-icon{
+  font-size: 40px;
+  line-height: normal;
+  color: #109988;
+}
+span{
+  display: block;
+}
+.follow-icons svg{
+  color: #d8d8d8;
+}
+.follow-icons svg:hover{
+  color: #109988;
+}

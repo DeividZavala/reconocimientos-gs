@@ -1,3 +1,6 @@
+.uk-navbar-nav>li>a{
+  color: #ffffff;
+}
 .custom-navbar .uk-navbar-nav>li>a{
   color: #282828 !important;
 }

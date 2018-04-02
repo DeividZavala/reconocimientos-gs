@@ -1,0 +1,59 @@
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active{
+  webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+button.hvr-float-shadow:before{
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+
+form label {
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #a8acb9;
+  display: block;
+  letter-spacing: 1.5px;
+}
+
+form input, form textarea {
+  border: none;
+  background: #eff0f4;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 100%;
+}
+
+form input:focus, form textarea:focus {
+  box-shadow: 0px 9px 18px 0px rgba(173, 178, 199, 0.52);
+}
+.btn-border-round{
+  width: 158px;
+  height: 50px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #109988;
+  border: none;
+}

@@ -5,7 +5,7 @@ import {Router} from '@angular/router';
   selector: 'app-navbar',
   styleUrls: ['nav.component.css'],
   template: `
-    <div class="top-header uk-width-1-1">
+    <div class="top-header uk-width-1-1" *ngIf="router.url !== '/'">
       <div class="uk-container">
         <ul class="uk-float-left uk-margin-remove">
           <li><a href="" class="tran3s">
@@ -26,13 +26,12 @@ import {Router} from '@angular/router';
     </div>
     <nav class="uk-navbar-container uk-navbar uk-width1-1"
          [ngClass]="{'uk-navbar-transparent uk-padding': router.url === '/',
-         'uk-padding-small custom-navbar': router.url !== '/'}"
-         *ngIf="router.url !== '/'">
+         'uk-padding-small custom-navbar': router.url !== '/'}">
 
       <div class="uk-navbar-left">
 
-        <a href="" class="uk-navbar-item uk-logo">
-          <img src="/assets/img gs/gs2.png" alt="">
+        <a class="uk-navbar-item uk-logo" (click)="changeRoute('')">
+          <img src="/assets/img gs/gs_100x100.png" alt="">
         </a>
 
       </div>
@@ -40,19 +39,19 @@ import {Router} from '@angular/router';
       <div class="uk-navbar-right uk-visible@m">
 
         <ul class="uk-navbar-nav">
-          <li class=""><a href="">Inicio</a></li>
+          <li class=""><a (click)="changeRoute('')">Inicio</a></li>
           <li><a (click)="changeRoute('about-us')" >Sobre Nosotros</a></li>
           <li>
-            <a href="#">Servicios <span class="uk-margin-small-left"><i class="fas fa-chevron-down"></i></span></a>
+            <a (click)="changeRoute('services')">Servicios <span class="uk-margin-small-left"><i class="fas fa-chevron-down"></i></span></a>
             <div class="uk-navbar-dropdown" uk-dropdown="offset: 0">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class=""><a href="#">Reconocimientos</a></li>
-                <li><a href="#">Paquetes de graduación</a></li>
-                <li><a href="#">Paquetes para empresas</a></li>
+                <li class=""><a href="#">Empresas</a></li>
+                <li><a href="#">Escuelas y Universidades</a></li>
+                <li><a href="#">Paquetes para Graduación</a></li>
               </ul>
             </div>
           </li>
-          <li><a href="#">Contactanos</a></li>
+          <li><a (click)="changeRoute('contact-us')">Contactanos</a></li>
         </ul>
 
       </div>
