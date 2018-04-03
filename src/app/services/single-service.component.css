@@ -1,0 +1,97 @@
+.single-service:hover h5 a{
+  color: #109988;
+}
+.single-service{
+  position: relative;
+  border: 1px solid #f0f2f4;
+  border-top: none;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.single-service:before{
+  position: absolute;
+  content: '';
+  height: 30px;
+  width: 30px;
+  bottom: 0;
+  right: 0;
+  background: #282a30;
+  background: -webkit-linear-gradient(135deg, #f6f8fa 45%, #ebf2f9 50%, #ebf2f9 56%);
+  background: linear-gradient(315deg, #f6f8fa 45%, #ebf2f9 50%, #ebf2f9 56%);
+  bottom: -1px;
+  right: -1px;
+  background: #fff;
+  background: -webkit-linear-gradient(135deg, #fff 45%, #f2f4f6 50%, #f2f4f6 56%);
+  background: linear-gradient(315deg, #fff 45%, #f2f4f6 50%, #f2f4f6 56%);
+}
+.read-more{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #109988;
+}
+.hvr-icon-wobble-horizontal{
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.hvr-icon-wobble-horizontal:hover svg, .hvr-icon-wobble-horizontal:focus svg, .hvr-icon-wobble-horizontal:active svg{
+  -webkit-animation-name: hvr-icon-wobble-horizontal;
+  animation-name: hvr-icon-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.read-more svg {
+  margin-left: 3px;
+  vertical-align: middle;
+}
+.hvr-icon-wobble-horizontal svg {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  display: inline-block;
+}
+h5 a {
+  color: #282828;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+@keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
