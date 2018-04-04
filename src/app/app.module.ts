@@ -19,12 +19,14 @@ import {SectionHeaderComponent} from './header/section-header.component';
 import {ContactusFormComponent} from './contact-us/contactus-form.component';
 import {ServicesListComponent} from './services/services-list.component';
 import {SingleServiceComponent} from './services/single-service.component';
+import {ServiceDetailComponent} from './services/service-detail.component';
 
 const Routes: Routes = [
   {path: '', component: LandingComponent},
   {path: 'about-us', component: AboutUsComponent},
   {path: 'contact-us', component: ContactUsComponent},
   {path: 'services', component: ServicesListComponent},
+  {path: 'services/:id', component: ServiceDetailComponent},
   {path: '**', component: LandingComponent}
 ];
 
@@ -40,6 +42,7 @@ const Routes: Routes = [
     ContactusFormComponent,
     ServicesListComponent,
     SingleServiceComponent,
+    ServiceDetailComponent,
     TeamMemberComponent
   ],
   imports: [

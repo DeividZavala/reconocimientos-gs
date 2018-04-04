@@ -20,7 +20,7 @@ import {Component, Input} from '@angular/core';
               <li *ngFor="let s of service.services">{{s}}</li>
             </ul>
           </div>
-          <a href="" class="tran3s read-more hvr-icon-wobble-horizontal">
+          <a routerLink="/services/1" class="tran3s read-more hvr-icon-wobble-horizontal">
             Saber Más
             <i class="fas fa-caret-right"></i>
           </a>
