@@ -10,7 +10,7 @@ import {Component} from '@angular/core';
       </div>
       <div class="header-title">
         <h1>
-          La mejor opción para tu paquete de graduación
+          La mejor opción para tu graduación
         </h1>
         <p class="uk-margin-remove-top">Artículos de graduación y reconocimientos deportivos, empresariales y gubernamentales.</p>
       </div>

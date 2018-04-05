@@ -31,7 +31,8 @@ import {Router} from '@angular/router';
       <div class="uk-navbar-left">
 
         <a class="uk-navbar-item uk-logo" (click)="changeRoute('')">
-          <img src="/assets/img gs/gs_100x100.png" alt="">
+          <img src="/assets/img gs/FINAL100x100.png" alt="" *ngIf="router.url === '/'">
+          <img src="/assets/img gs/gs_100x100.png" alt="" *ngIf="router.url !== '/'">
         </a>
 
       </div>
@@ -45,9 +46,9 @@ import {Router} from '@angular/router';
             <a (click)="changeRoute('services')">Servicios <span class="uk-margin-small-left"><i class="fas fa-chevron-down"></i></span></a>
             <div class="uk-navbar-dropdown" uk-dropdown="offset: 0">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class=""><a href="#">Empresas</a></li>
-                <li><a href="#">Escuelas y Universidades</a></li>
-                <li><a href="#">Paquetes para Graduación</a></li>
+                <li class=""><a (click)="changeRoute('services', 1)">Empresas</a></li>
+                <li><a (click)="changeRoute('services', 2)">Escuelas y Universidades</a></li>
+                <li><a (click)="changeRoute('services', 3)">Paquetes para Graduación</a></li>
               </ul>
             </div>
           </li>
@@ -65,8 +66,8 @@ export class NavComponent {
     public router: Router
   ) {}
 
-  changeRoute(route: string) {
-    this.router.navigate([route]);
+  changeRoute(route: string, id?) {
+    id ? this.router.navigate([route + '/' + id]) : this.router.navigate([route]);
   }
 
 }

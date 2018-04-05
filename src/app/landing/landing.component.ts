@@ -1,4 +1,6 @@
 import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
+import {AppService} from '../app.service';
 // import {OwlCarousel} from 'ngx-owl-carousel';
 
 @Component({
@@ -8,32 +10,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
-  services = [
-    {
-      'name': 'EMPRESAS',
-      'services': [
-        'Reconocimientos',
-        'Anillos conmemorativos',
-        'Cristal grabado en Sand-Blast'
-      ]
-    },
-    {
-      'name': 'ESCUELAS Y UNIVERSIDADES',
-      'services': [
-        'Diplomas',
-        'Agradecimientos',
-        'Toma de Fotografías panorámicas e individuales'
-      ]
-    },
-    {
-      'name': 'PAQUETES PARA GRADUACION',
-      'services': [
-        'PAQUETE DE LUJO',
-        'PREMIER',
-        'DIAMANTE'
-      ]
-    }
-  ];
+  services;
   targets: any = {
     'projects': 10000,
     'years': 20,
@@ -52,6 +29,16 @@ export class LandingComponent implements OnInit {
     particlesJS.load('particles-js', 'assets/particles.json', function() {
       console.log('callback - particles.js config loaded');
     });
+    this.services = this.appService.getServices();
+  }
+
+  constructor(
+    public router: Router,
+    private appService: AppService
+  ) {}
+
+  changeRoute(route: string) {
+    this.router.navigate([route]);
   }
 
 }
