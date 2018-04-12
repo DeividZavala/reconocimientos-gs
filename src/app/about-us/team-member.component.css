@@ -27,3 +27,9 @@
   background: #109988;
   border: 1px solid #109988;
 }
+
+@media  screen and (max-width: 620px) {
+  .single-team-member{
+    text-align: center;
+  }
+}

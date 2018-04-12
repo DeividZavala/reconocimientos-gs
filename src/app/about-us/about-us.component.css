@@ -31,3 +31,9 @@ h6{
   font-size: 18px;
   font-weight: 300;
 }
+
+@media  screen and (max-width: 620px) {
+  .ceo-info{
+    text-align: center;
+  }
+}

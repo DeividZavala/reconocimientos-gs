@@ -37,9 +37,9 @@ import {Router} from '@angular/router';
 
       </div>
 
-      <div class="uk-navbar-right uk-visible@m">
+      <div class="uk-navbar-right ">
 
-        <ul class="uk-navbar-nav">
+        <ul class="uk-navbar-nav uk-visible@m">
           <li class=""><a (click)="changeRoute('')">Inicio</a></li>
           <li><a (click)="changeRoute('about-us')" >Sobre Nosotros</a></li>
           <li>
@@ -54,6 +54,20 @@ import {Router} from '@angular/router';
           </li>
           <li><a (click)="changeRoute('contact-us')">Contactanos</a></li>
         </ul>
+
+        <div class="navbar-toppanel">
+          <div class="uk-flex uk-flex-between uk-flex-stretch navbar-toppanel-inner uk-flex-middle">
+            <div [ngClass]="{'out-of-landing': router.url !== '/'}"><i class="fas fa-bars"></i></div>
+            <div uk-dropdown="mode: click" class="uk-width-small@l uk-width-1-1@s menu-list-container">
+              <ul class="uk-list uk-navbar-dropdown-nav uk-list-divider menu-list ">
+                <li class="uk-hidden@s"><a (click)="changeRoute('')">Inicio</a></li>
+                <li class="uk-hidden@s"><a (click)="changeRoute('about-us')">Sobre Nosotros</a></li>
+                <li class="uk-hidden@s"><a (click)="changeRoute('services')">Servicios</a></li>
+                <li class="uk-hidden@s"><a (click)="changeRoute('contact-us')">Contactanos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
       </div>
 
