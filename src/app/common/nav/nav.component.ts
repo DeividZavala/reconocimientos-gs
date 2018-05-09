@@ -55,7 +55,7 @@ import {Router} from '@angular/router';
           <li><a (click)="changeRoute('contact-us')">Contactanos</a></li>
         </ul>
 
-        <div class="navbar-toppanel">
+        <div class="navbar-toppanel uk-hidden@s">
           <div class="uk-flex uk-flex-between uk-flex-stretch navbar-toppanel-inner uk-flex-middle">
             <div [ngClass]="{'out-of-landing': router.url !== '/'}"><i class="fas fa-bars"></i></div>
             <div uk-dropdown="mode: click" class="uk-width-small@l uk-width-1-1@s menu-list-container">

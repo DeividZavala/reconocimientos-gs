@@ -9,9 +9,9 @@ import {Component} from '@angular/core';
         <app-navbar></app-navbar>
       </div>
       <div class="header-title">
-        <h1>
-          La mejor opción para tu graduación
-        </h1>
+        <div>
+          <img src="assets/img gs/GSFINAL.png" alt="graducaiones gs" class="">
+        </div>
         <p class="uk-margin-remove-top">Artículos de graduación y reconocimientos deportivos, empresariales y gubernamentales.</p>
       </div>
     </header>
