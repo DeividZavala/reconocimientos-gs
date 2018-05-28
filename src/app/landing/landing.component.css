@@ -23,7 +23,7 @@ h6{
   font-weight: 300;
 }
 .ventajas svg{
-  color: rgb(19,183,162) !important;
+  color: rgb(12,171,154) !important;
 }
 a.btn-round{
   line-height: 41px;
@@ -38,10 +38,10 @@ a.btn-round.more-info{
   width: 155px;
 }
 .about-us .btn-round{
-  background: #109988;
+  background: #0cab9a;
   width: 160px;
   line-height: 50px;
-  border-color: #109988;
+  border-color: #0cab9a;
   color: white;
 }
 .btn-round{
@@ -52,8 +52,8 @@ a.btn-round.more-info{
   border-radius: 30px;
 }
 .btn-round:hover{
-  background: rgb(19,183,162);
-  border-color: rgb(19,183,162);
+  background: rgb(12,171,154);
+  border-color: rgb(12,171,154);
   color: rgb(255, 255, 255);
 }
 .background-lead{
@@ -67,7 +67,7 @@ a.btn-round.more-info{
   color: rgb(255, 255, 255);
   font-size: 30px;
   border-radius: 50%;
-  background: rgb(19,183,162);
+  background: rgb(12,171,154);
 }
 .circular-icon svg{
   color: #ffffff !important;
@@ -138,7 +138,7 @@ p.services{
 }
 
 .item{
-  background: #109988;
+  background: #0cab9a;
   position: relative;
   padding: 25px 30px 28px 50px;
   border-radius: 3px;
@@ -191,7 +191,7 @@ p.services{
   color: #ffffff;
 }
 .testimonios span{
-  color: #109988;
+  color: #0cab9a;
 }
 .testimonios .item {
   background: #fff;

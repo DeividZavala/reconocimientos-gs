@@ -1,32 +1,36 @@
 .header{
   height: 100vh;
-  background: radial-gradient(#13B7A2, black);
+  /*background: radial-gradient(#13B7A2, black);*/
   max-height: 100vh;
+  max-width: 100%;
   position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .header-title{
-  color: white;
+  color: black;
   font-size: 3em;
   text-align: center;
-  padding: 0 15%;
+  width: 100%;
+  height: 60%;
   position: absolute;
-  top: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+.header img{
+  width: 70%;
+}
 h1{
   font-size: 60px;
   font-weight: 900;
-  color: #ffffff;
+  color: #000000;
 }
 p{
   font-size: 18px;
-  color: #fff;
+  color: #000;
   line-height: 30px;
   font-weight: 300;
   font-family: 'Bevan', cursive;

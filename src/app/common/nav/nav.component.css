@@ -8,7 +8,7 @@
   color: #000;
 }
 .uk-navbar-nav>li>a{
-  color: #ffffff;
+  color: #000000;
 }
 .custom-navbar .uk-navbar-nav>li>a{
   color: #282828 !important;
@@ -27,7 +27,7 @@
   font-size: 18px;
 }
 .top-header ul>li>a:hover{
-  color: #109988;
+  color: #0cab9a;
 }
 .top-header ul>li{
   display: inline-block;

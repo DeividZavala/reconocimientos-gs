@@ -24,8 +24,8 @@
 }
 .single-team-member ul li a:hover {
   color: #fff;
-  background: #109988;
-  border: 1px solid #109988;
+  background: #0cab9a;
+  border: 1px solid #0cab9a;
 }
 
 @media  screen and (max-width: 620px) {

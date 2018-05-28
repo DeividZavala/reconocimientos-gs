@@ -31,7 +31,7 @@ import {Router} from '@angular/router';
       <div class="uk-navbar-left">
 
         <a class="uk-navbar-item uk-logo" (click)="changeRoute('')">
-          <img src="/assets/img gs/FINAL100x100.png" alt="" *ngIf="router.url === '/'">
+          <img src="/assets/img gs/gs_100x100.png" alt="" *ngIf="router.url === '/'">
           <img src="/assets/img gs/gs_100x100.png" alt="" *ngIf="router.url !== '/'">
         </a>
 

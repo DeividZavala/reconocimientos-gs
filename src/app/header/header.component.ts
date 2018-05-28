@@ -12,7 +12,7 @@ import {Component} from '@angular/core';
         <div>
           <img src="assets/img gs/GSFINAL.png" alt="graducaiones gs" class="">
         </div>
-        <p class="uk-margin-remove-top">Artículos de graduación y reconocimientos deportivos, empresariales y gubernamentales.</p>
+        <!--<p class="uk-margin-remove-top">Artículos de graduación y reconocimientos deportivos, empresariales y gubernamentales.</p>-->
       </div>
     </header>
   `

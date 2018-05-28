@@ -12,7 +12,7 @@ export class LandingComponent implements OnInit {
 
   services;
   targets: any = {
-    'projects': 10000,
+    'projects': 8000,
     'years': 20,
     'workes': 20
   };

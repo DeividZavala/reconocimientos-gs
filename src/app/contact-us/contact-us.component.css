@@ -7,7 +7,7 @@
 svg.single-address-icon{
   font-size: 40px;
   line-height: normal;
-  color: #109988;
+  color: #0cab9a;
 }
 span{
   display: block;
@@ -16,5 +16,5 @@ span{
   color: #d8d8d8;
 }
 .follow-icons svg:hover{
-  color: #109988;
+  color: #0cab9a;
 }
