@@ -4,6 +4,12 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
+import Icons from 'uikit/dist/js/uikit-icons';
+import UIkit from 'uikit';
+
+// loads the Icon plugin
+UIkit.use(Icons);
+
 if (environment.production) {
   enableProdMode();
 }

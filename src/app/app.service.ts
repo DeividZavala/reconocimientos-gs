@@ -5,28 +5,39 @@ export class AppService {
 
   services = [
     {
-      'name': 'EMPRESAS',
+      'id': 1,
+      'name': 'EMPRESARIALES Y DEPORTIVOS',
       'services': [
-        'Reconocimientos',
-        'Anillos conmemorativos',
-        'Cristal grabado en Sand-Blast'
+        'Reconocimientos en base de madera con placas de aluminio',
+        'Reconocimientos de cristal',
+        'Anillos de oro',
+        'Anillos de plata',
+        'Fistoles o pines',
+        'Medallas',
+        'Llaveros metálicos',
+        'Placas o bustos fundidos en acero',
+        'Tazas y vasos grabados en Sand Blast',
+        'Carpetas de piel y curpiel grabadas',
+        'Maquila de grabado en madera, aluminio, acrílico y piel'
       ]
     },
     {
-      'name': 'ESCUELAS Y UNIVERSIDADES',
+      'id': 2,
+      'name': 'ESCOLARES Y UNIVERSITARIOS',
       'services': [
         'Diplomas',
         'Agradecimientos',
-        'Toma de Fotografías panorámicas e individuales'
-      ]
-    },
-    {
-      'name': 'PAQUETES PARA GRADUACION',
-      'services': [
-        'PAQUETE DE LUJO',
-        'PREMIER',
-        'DIAMANTE'
-      ]
+        'Fotografías panorámicas enmarcadas',
+        'Fotografías panorámicas en papel',
+        'Fotografías individuales enmarcadas',
+        'Fotografías individuales en papel',
+        'Renta de togas y birretes',
+        'Anillos de oro',
+        'Anillos de plata',
+        'Fistoles o pines',
+        'Tarros grabados',
+        'Chamarras y playeras bordadas'
+]
     }
   ];
 

@@ -8,18 +8,18 @@ import {Router} from '@angular/router';
     <div class="top-header uk-width-1-1" *ngIf="router.url !== '/'">
       <div class="uk-container">
         <ul class="uk-float-left uk-margin-remove">
-          <li><a href="" class="tran3s">
-            <i class="fab fa-linkedin-in"></i>
-          </a></li>
-          <li><a href="" class="tran3s">
+          <li><a href="https://www.facebook.com/gsreconocimientos/" class="tran3s">
             <i class="fab fa-facebook-f"></i>
+          </a></li>
+          <!--<li><a href="" class="tran3s">
+            <i class="fab fa-linkedin-in"></i>
           </a></li>
           <li><a href="" class="tran3s">
             <i class="fab fa-twitter"></i>
           </a></li>
           <li><a href="" class="tran3s">
             <i class="fab fa-google-plus-g"></i>
-          </a></li>
+          </a></li>-->
           <li>Horario de Oficina: 9:00 - 17:00</li>
         </ul>
       </div>
@@ -48,7 +48,7 @@ import {Router} from '@angular/router';
               <ul class="uk-nav uk-navbar-dropdown-nav">
                 <li class=""><a (click)="changeRoute('services', 1)">Empresas</a></li>
                 <li><a (click)="changeRoute('services', 2)">Escuelas y Universidades</a></li>
-                <li><a (click)="changeRoute('services', 3)">Paquetes para Graduación</a></li>
+                <!--<li><a (click)="changeRoute('services', 3)">Paquetes para Graduación</a></li>-->
               </ul>
             </div>
           </li>

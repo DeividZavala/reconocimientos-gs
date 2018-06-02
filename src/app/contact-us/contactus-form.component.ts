@@ -1,17 +1,24 @@
 import {Component} from '@angular/core';
+import UIkit from 'uikit';
+import {Router} from "@angular/router";
+
 
 @Component({
   selector: 'app-contactus-form',
   styleUrls: ['contactus-form.component.css'],
   template: `
-  <form class="uk-form-stacked">
+  <form class="uk-form-stacked" (ngSubmit)="handleSubmit(form.value, form.valid)" #form="ngForm" >
 
           <div class="uk-margin uk-width-1-1">
             <label class="uk-form-label" for="usern-email">Ingresa tu correo</label>
             <div class="uk-form-controls">
               <input class="uk-input uk-form-large tran3s"
+                     name="email"
+                     ngModel
+                     #email="ngModel"
                      id="usern-email"
                      type="email"
+                     required
                      placeholder="Tu Email"
                      onfocus="this.placeholder = ''"
                      onblur="this.placeholder = 'Tu Email'">
@@ -23,6 +30,9 @@ import {Component} from '@angular/core';
               <label class="uk-form-label" for="user-name">Nombre</label>
               <div class="uk-form-controls">
                 <input class="uk-input uk-form-large tran3s"
+                       name="name"
+                       ngModel
+                       #name="ngModel"
                        id="user-name" type="text"
                        placeholder="Nombre"
                        onfocus="this.placeholder = ''"
@@ -34,6 +44,9 @@ import {Component} from '@angular/core';
               <label class="uk-form-label" for="user-lastname">Apellido</label>
               <div class="uk-form-controls">
                 <input class="uk-input uk-form-large tran3s"
+                       name="lastname"
+                       ngModel
+                       #lastname="ngModel"
                        id="user-lastname"
                        type="text"
                        placeholder="Apellido"
@@ -45,10 +58,28 @@ import {Component} from '@angular/core';
 
           <div class="uk-margin">
             <label class="uk-form-label" for="message">Mensaje</label>
-            <textarea class="uk-textarea uk-form-large tran3s" rows="5" placeholder="" id="message"></textarea>
+            <textarea class="uk-textarea uk-form-large tran3s"
+                      name="message"
+                      ngModel
+                      #message="ngModel"
+                      rows="5"
+                      placeholder=""
+                      id="message"></textarea>
           </div>
           <button class="hvr-float-shadow tran3s btn-border-round">Enviar mensaje</button>
         </form>
 `
 })
-export class ContactusFormComponent {}
+export class ContactusFormComponent {
+
+  constructor(private router: Router) {}
+
+  handleSubmit(form, isValid: boolean) {
+    if (isValid) {
+      console.log(form);
+      UIkit.notification({message: '<span uk-icon=\'icon: check\'></span> Mensaje enviado', status: 'success'});
+      this.router.navigate(['/']);
+    }
+  }
+
+}

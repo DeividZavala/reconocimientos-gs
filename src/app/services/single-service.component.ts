@@ -11,7 +11,7 @@ import {Component, Input} from '@angular/core';
         </div>
         <div class="uk-card-body service-text">
           <h5 class="uk-card-title">
-            <a href="" class="tran3s">
+            <a routerLink="/services/{{service.id}}" class="tran3s">
               {{service.name}}
             </a>
           </h5>

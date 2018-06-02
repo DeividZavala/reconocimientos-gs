@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+  font-family: 'Avenir';
+}
+
 a{
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Avenir', sans-serif !important;
 }
 /** Paddings left **/
 .padding-small-left{

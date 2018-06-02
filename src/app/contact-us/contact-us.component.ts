@@ -12,7 +12,7 @@ import {Component} from '@angular/core';
             <iframe
               frameborder="0" style="border:0"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCngbzHv03wpM1YRkWRwtzvXzrscX_ccEg
-                      &q=Avenida+Francisco+I.+Madero+16,+Centro,+Ciudad+de+México,+CDMX" allowfullscreen>
+                      &q=Cda.+Hacienda+de+Enmedio+88,+Impulsora+Popular+Avicola,+57130+Nezahualcóyotl,+Méx." allowfullscreen>
             </iframe>
           </div>
           <div class="uk-width-3-5">
@@ -27,10 +27,10 @@ import {Component} from '@angular/core';
           <div>
             <div class="single-address" >
               <i class="fas fa-map-marker-alt single-address-icon"></i>
-              <h3 class="uk-margin-small-top">Nuestra Direccioón</h3>
+              <h3 class="uk-margin-small-top">Nuestra Dirección</h3>
               <p class="uk-text-muted">
-                <span>60 Grant Ave. Central New</span>
-                <span>Road 0708, UK</span>
+                <span>Hacienda de En medio no. 88 Col. Impulsora</span>
+                <span>Nezahualcóyotl Edo. De México.</span>
               </p>
             </div>
           </div>
@@ -40,7 +40,7 @@ import {Component} from '@angular/core';
               <h3 class="uk-margin-small-top">Télefono y Correo</h3>
               <p class="uk-text-muted">
                 <span>(+880) xxx-xxx-788 & xxx-777</span>
-                <span>sample@gmail.com</span>
+                <span>contacto@reconocimientosgs.com </span>
               </p>
             </div>
           </div>
@@ -52,11 +52,11 @@ import {Component} from '@angular/core';
                 <span>Siguenos en redes sociales</span>
                 <div class="uk-flex follow-icons uk-flex-center uk-margin-small-top">
                   <div class="uk-margin-small-right">
-                    <a href="">
+                    <a href="https://www.facebook.com/gsreconocimientos/">
                       <i class="fab fa-facebook-f fa-lg tran3s"></i>
                     </a>
                   </div>
-                  <div class="uk-margin-small-right">
+                  <!--<div class="uk-margin-small-right">
                     <a href="">
                       <i class="fab fa-twitter fa-lg tran3s"></i>
                     </a>
@@ -70,7 +70,7 @@ import {Component} from '@angular/core';
                     <a href="">
                       <i class="fab fa-linkedin-in fa-lg tran3s"></i>
                     </a>
-                  </div>
+                  </div>-->
                 </div>
               </div>
             </div>

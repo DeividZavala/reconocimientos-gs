@@ -10,10 +10,10 @@
       <div>
         <div>
           <h2 class="uk-margin-remove">¡META CUMPLIDA!</h2>
-          <p class="uk-text-muted">
+          <p class="">
             Permítenos reconocer tu iniciativa, tu esfuerzo, tu constancia y dedicación con un detalle perfecto que conmemore el logro de esa gran meta.
           </p>
-          <a href="" class="btn-round more-info">
+          <a routerLink="/services" class="btn-round more-info">
             Saber más
           </a>
         </div>
@@ -26,14 +26,14 @@
   <div class="uk-container ventajas uk-text-center">
     <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
       <div>
-        <i class="fas fa-pencil-alt fa-3x"></i>
+        <i class="fas fa-lightbulb fa-3x"></i>
         <h5 class="uk-margin-small uk-margin-medium-top">DISEÑOS CREATIVOS</h5>
         <p class="uk-text-muted uk-margin-remove">
           A demás de contar con una amplia gama de diseños, buscamos nuevos materiales que nos permitan crear modelos exclusivos para ti.
         </p>
       </div>
       <div>
-        <i class="fas fa-suitcase fa-3x"></i>
+        <i class="fas fa-pencil-alt fa-3x"></i>
         <h5 class="uk-margin-small uk-margin-medium-top">DISEÑOS PERSONALIZADOS</h5>
         <p class="uk-text-muted uk-margin-remove">
           Nos adaptamos a tus requerimientos.
@@ -58,9 +58,9 @@
     </h3>
     <p class="uk-margin-medium-bottom">
       “Reconocimientos GS”  es  hoy  en  día  una  de  las  empresas líderes y de mayor
-      prestigio en la venta y  fabricación de artículos de  graduación,
+      prestigio en la fabricación y venta de artículos de  graduación,
       anillos conmemorativos, preseas  y  reconocimientos  al  mérito
-      laboral, así como especialistas en la  maquila  de   grabado  en
+      laboral y deportivo, así como especialistas en la  maquila  de   grabado  en
       diversos materiales.
     </p>
     <div class="uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid>
@@ -69,7 +69,7 @@
         <div class="uk-flex uk-flex-middle uk-margin-medium-bottom">
           <div class="uk-width-1-4@m uk-width-1-1@s">
             <div class="circular-icon">
-              <i class="fas fa-sitemap fa-sm"></i>
+              <i class="fas fa-building fa-sm"></i>
             </div>
           </div>
           <div class="uk-margin-small-left uk-width-auto">
@@ -139,15 +139,19 @@
         <p class="uk-text-muted">
           Empresa 100% mexicana fundada en el año de 1994, ubicada
           En el oriente de la ciudad de México.
-        <p>
+        </p>
 
-        <p class="uk-text-muted padding-bottom">
-          “Reconocimientos GS”  es  hoy  en  día  una  de  las  empresas líderes y de mayor
-          prestigio en la venta y  fabricación de artículos de  graduación,
-          anillos conmemorativos, preseas  y  reconocimientos  al  mérito
-          laboral, así como especialistas en la  maquila  de   grabado  en
-          diversos materiales.
-        <p>
+        <p class="uk-text-muted">
+          MISIÓN <br>
+          Elaborar productos innovadores y de calidad que permitan
+          reconocer el éxito y logros obtenidos de cada persona para
+          que esos momentos perduren por siempre.
+        </p>
+        <p class="uk-text-muted">
+        Así mismo, ser participes en el agradecimiento hacia esas
+        personas que son o formaron parte en el logro de la meta
+        alcanzada.
+        </p>
         <!--<div class="uk-child-width-1-3@m uk-child-width-1-1@s uk-margin-small-top" uk-grid>
           <div class="uk-text-center">
             <img class="uk-border-circle" src="http://unifytheme.com/bin/bitap/images/home/5.jpg" alt="">
@@ -162,7 +166,7 @@
 
         </div>-->
 
-        <a class="hvr-float-shadow btn-round uk-margin-medium-top ">Saber más</a>
+        <a href="#visitanos" class="hvr-float-shadow btn-round uk-margin-medium-top ">Saber más</a>
 
       </div>
       <div>
@@ -217,7 +221,7 @@
   </div>
 </section>
 
-<section class="uk-section">
+<!--<section class="uk-section">
   <article class="counter-container uk-container">
     <div class="uk-child-width-1-3@m uk-child-width-1-1@s uk-text-center" uk-grid>
       <div>
@@ -249,14 +253,14 @@
 
     </div>
   </article>
-</section>
+</section>-->
 
 <section class="uk-section particles-container">
   <div id="particles-js"></div>
   <div class="uk-container">
     <h2 class="services uk-text-center">Nuestros Servicios</h2>
     <p class="uk-text-center services">Lorem ipsum dolor sit amet, vix an natum labitur eleifend mel amet</p>
-    <div class="uk-child-width-1-3@m uk-child-width-1-1@s uk-margin-medium-top uk-grid-match" uk-grid>
+    <div class="uk-child-width-1-2@m uk-child-width-1-1@s uk-margin-medium-top uk-grid-match" uk-grid>
 
       <div *ngFor="let service of services">
         <div class="item">
@@ -266,7 +270,11 @@
               <span>Servicio</span>
               <h5 class="uk-margin-remove"><a href="service-details.html" class="tran3s">{{service.name}}</a></h5>
             </div>
-            <p class="uk-margin-remove">The kit consists more than hundred of ready to use elements that combine to get the exact prototype want.</p>
+            <div class="uk-margin-remove">
+              <div class="uk-display-inline-block uk-padding-remove" *ngFor="let s of service.services; let i=index" >
+                <span *ngIf="i<4" >{{s}}, </span>
+              </div> y más
+            </div>
           </div> <!-- /.single-service -->
         </div> <!-- /.item -->
       </div>
@@ -281,7 +289,7 @@
 </section>
 
 
-<section class="uk-section our-team">
+<!--<section class="uk-section our-team">
   <div class="uk-container">
     <h2 class="uk-text-center">Nuestros Equipo</h2>
     <p class="uk-text-center">Lorem ipsum dolor sit amet, vix an natum labitur eleifend mel amet</p>
@@ -294,7 +302,7 @@
 
     </div>
   </div>
-</section>
+</section>-->
 
 <section class="uk-section">
 
@@ -367,19 +375,19 @@
 </section>
 
 
-<section class="uk-section">
+<section class="uk-section" id="visitanos">
   <div class="uk-container">
     <div class="uk-grid-match" uk-grid>
       <div class="uk-width-expand@m uk-width-1-1@s">
-        <h2>Visitanos</h2>
+        <h2>Visítanos</h2>
         <iframe
           frameborder="0" style="border:0"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCngbzHv03wpM1YRkWRwtzvXzrscX_ccEg
-                      &q=Avenida+Francisco+I.+Madero+16,+Centro,+Ciudad+de+México,+CDMX" allowfullscreen>
+                      &q=Cda.+Hacienda+de+Enmedio+88,+Impulsora+Popular+Avicola,+57130+Nezahualcóyotl,+Méx." allowfullscreen>
         </iframe>
       </div>
       <div class="uk-width-1-3@m uk-width-1-1@s">
-        <h2>Contactanos</h2>
+        <h2>Contáctanos</h2>
         <app-contactus-form></app-contactus-form>
       </div>
     </div>
