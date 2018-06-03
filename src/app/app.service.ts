@@ -53,14 +53,13 @@ export class AppService {
   }
 
   sendMessage(contact) {
-    const options = {
-      method: 'post',
+    return fetch('http://api.reconocimientosgs.com/contact', {
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(contact)
-    };
-    return fetch('http://api.reconocimientosgs.com/contact', options)
+    })
       .then(r => r.json())
       .then(message => message);
   }
