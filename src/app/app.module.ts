@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CountUpModule } from 'countup.js-angular2';
 import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 // import { OwlModule } from 'ngx-owl-carousel';
 
@@ -51,6 +52,7 @@ const Routes: Routes = [
     CommonAppModule,
     CountUpModule,
     FormsModule,
+    HttpModule,
     RouterModule.forRoot(Routes)
   ],
   providers: [

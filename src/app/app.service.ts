@@ -1,4 +1,7 @@
 import {Injectable} from '@angular/core';
+import {Http, Response} from '@angular/http';
+
+import 'rxjs/add/operator/map';
 
 @Injectable()
 export class AppService {
@@ -41,9 +44,27 @@ export class AppService {
     }
   ];
 
-  constructor() {}
+  constructor(
+    private http: Http
+  ) {}
 
   getServices() {
     return this.services;
   }
+
+  sendMessage(contact) {
+    console.log('frepo', contact);
+    const options = {
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(contact)
+    };
+    console.log(options);
+    return fetch('https://api-gs.localtunnel.me/contact', options)
+      .then(r => r.json())
+      .then(message => message);
+  }
+
 }
