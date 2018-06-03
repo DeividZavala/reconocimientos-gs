@@ -62,7 +62,7 @@ export class AppService {
       body: JSON.stringify(contact)
     };
     console.log(options);
-    return fetch('https://api-gs.localtunnel.me/contact', options)
+    return fetch('http://api.reconocimientosgs.com/contact', options)
       .then(r => r.json())
       .then(message => message);
   }
